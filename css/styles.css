@@ -429,4 +429,32 @@ body {
     gap: 120px;
 }
 
-.fofo {}
+.link-social-footer {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 32px;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.link-social-footer li {
+    background-color: #4D5AE5;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-social-footer li:hover,
+.link-social-footer li:focus {
+    background-color: #31D0AA;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

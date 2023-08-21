@@ -80,6 +80,7 @@ img {
     margin-right: auto;
     display: flex;
     align-items: center;
+
 }
 
 .link-all {
@@ -89,7 +90,7 @@ img {
 }
 
 
-.link-all .link::after {
+.current::after {
     width: 48px;
     height: 4px;
     background-color: #404BBF;

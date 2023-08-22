@@ -449,12 +449,9 @@ body {
     margin-bottom: 16px;
 }
 
-
-
 .link-social-footer {
     display: flex;
     gap: 16px;
-
     justify-content: center;
     align-items: center;
 }
@@ -475,11 +472,11 @@ body {
 }
 
 .link-social-footer a:hover,
-.link-social-footer a:focus {
+.link-social-footer a:focus,
+.link-social-footer a:active {
     background-color: #31d0aa;
     border-radius: 100%;
     width: 40px;
-
     height: 40px;
     display: flex;
     justify-content: center;

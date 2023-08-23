@@ -341,7 +341,7 @@ body {
 }
 
 
-.link-social-a {
+.link-social a {
     background-color: #4D5AE5;
     border-radius: 50%;
     width: 40px;
@@ -356,8 +356,8 @@ body {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-social-a:hover,
-.link-social-a:focus {
+.link-social a:hover,
+.link-social a:focus {
     background-color: #404BBF;
     border-radius: 100%;
     width: 40px;

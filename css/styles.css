@@ -366,6 +366,7 @@ body {
 .link-social-link {
     width: 40px;
     height: 40px;
+
 }
 
 .link-social-a {
@@ -377,6 +378,7 @@ body {
     justify-content: center;
     align-items: center;
     fill: #f4f4fd;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-social-a:hover,

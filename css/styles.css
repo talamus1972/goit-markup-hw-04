@@ -359,18 +359,10 @@ body {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-social-a:hover {
+.link-social-a:hover,
+.link-social-a:focus {
     background-color: #404BBF;
 }
-
-.link-social-a:focus .link-social-a:active {
-    background-color: #404BBF;
-
-}
-
-
-
-
 
 
 

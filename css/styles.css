@@ -85,6 +85,20 @@ img {
 
 }
 
+.header-link {
+    color: #2E2F42;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 24px 0;
+    display: block;
+}
+
+.header-link:hover,
+.header-link:focus {
+
+    color: #404BBF;
+}
+
 .current {
     position: relative;
     color: #404bbf;
@@ -110,19 +124,6 @@ img {
 
 
 
-.header .link {
-    /* color: #2E2F42; */
-    font-weight: 500;
-    text-decoration: none;
-    padding: 24px 0;
-    display: block;
-}
-
-.header .link:hover,
-.header .link:focus {
-
-    color: #404BBF;
-}
 
 .address-list {
     font-style: normal;

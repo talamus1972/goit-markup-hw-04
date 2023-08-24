@@ -123,13 +123,9 @@ img {
 }
 
 
-
-
 .address-list {
-    font-style: normal;
     display: flex;
     gap: 40px;
-
 }
 
 .address-list .link {
@@ -181,7 +177,6 @@ body {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -287,7 +282,6 @@ body {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
 }
@@ -396,15 +390,20 @@ body {
     border-top: none;
 }
 
+.port-li-link {
+    text-decoration: none;
+    display: block;
+}
 
 
-
-.port-li:hover {
+.port-li-link:hover {
 
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
         0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+
+
 
 /* Transform */
 
@@ -428,13 +427,16 @@ body {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.port-li:hover .paragraph-hidden {
+.port-li-link:hover .paragraph-hidden {
     transform: translateY(0%);
+
 
 }
 
+.port-li-link:focus .paragraph-hidden {
 
-
+    transform: translateY(0%);
+}
 
 /* footer */
 
